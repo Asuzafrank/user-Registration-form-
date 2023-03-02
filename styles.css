@@ -38,3 +38,6 @@ input {
   width: 300px;
   border-color: aqua;
 }
+textarea {
+  border-color: aqua;
+}
