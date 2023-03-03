@@ -9,7 +9,7 @@ body {
 main {
   background-color: bisque;
   margin: 0 auto;
-  height: 650px;
+  height: 800px;
   width: 600px;
 }
 fieldset {
@@ -24,20 +24,29 @@ hr {
   margin-left: auto;
 }
 label {
-  display: inline-block;
+  display: block;
   padding: 20px;
   align-content: center;
-
   margin-right: 10px;
 }
-button {
-  text-align: center;
+fieldset .btn {
+  display: block;
+  padding: 10px;
+  width: 300px;
+  background-color: #0a0a23;
+  color: #fff;
+  border-radius: 5px;
+  margin: 0 auto;
 }
 input {
+  display: block;
   padding: 10px;
   width: 300px;
   border-color: aqua;
+  margin-left: 10px;
 }
 textarea {
   border-color: aqua;
+  margin-left: 10px;
+  display: block;
 }
